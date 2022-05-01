@@ -1,8 +1,11 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+//Modules
+import { NavigationModule } from './Navigation/navigation/navigation.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+
 import { TitleComponent } from './title/title.component';
 
 @NgModule({
@@ -10,10 +13,13 @@ import { TitleComponent } from './title/title.component';
     AppComponent,
     TitleComponent
   ],
+
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NavigationModule
   ],
+  
   providers: [],
   bootstrap: [AppComponent]
 })
