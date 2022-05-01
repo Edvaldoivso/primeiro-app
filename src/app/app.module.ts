@@ -7,11 +7,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { TitleComponent } from './title/title.component';
+import { ContadorComponent } from './contador/contador.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TitleComponent
+    TitleComponent,
+    ContadorComponent
   ],
 
   imports: [
